@@ -1,0 +1,40 @@
+Level 1 partitions:
+  Subgraph 0: Nodes [26, 23]
+  Subgraph 1: Nodes [10, 11, 12]
+  Subgraph 2: Nodes [8, 9]
+  Subgraph 3: Nodes [0, 1, 2, 3]
+  Subgraph 4: Nodes [4, 5, 6, 7]
+  Subgraph 5: Nodes [24]
+  Subgraph 6: Nodes [17, 25]
+  Subgraph 7: Nodes [13, 14, 15]
+  Subgraph 8: Nodes [21, 20, 22]
+  Subgraph 9: Nodes [16, 18, 19]
+Number of hierarchical levels: 1
+Subgraph solution: 01
+Subgraph solution: 011
+Subgraph solution: 01
+Subgraph solution: 0011
+Subgraph solution: 0110
+Subgraph solution: 0
+Subgraph solution: 01
+Subgraph solution: 101
+Subgraph solution: 110
+Subgraph solution: 010
+Level 2 partitions:
+  Subgraph 0: Nodes [8, 0]
+  Subgraph 1: Nodes [9, 6]
+  Subgraph 2: Nodes [3, 5, 7]
+  Subgraph 3: Nodes [1, 2, 4]
+Number of hierarchical levels: 1
+Subgraph solution: 00
+Subgraph solution: 01
+Subgraph solution: 000
+Subgraph solution: 011
+High-level graph edges: [(0, 1, {'weight': 0}), (0, 2, {'weight': 6}), (0, 3, {'weight': -2}), (1, 2, {'weight': 0}), (1, 3, {'weight': 0}), (2, 3, {'weight': -3})]
+High-level solution bitstring: 0000
+Final merged solution: [0 0 1 1 0 1 1 0 0 1 0 1 1 1 0 1 0 0 1 0 1 1 0 1 0 1 0]
+Cut value of the solution: 14.38
+Optimal cut value (SDP): 18.619028167700023
+Approximation ratio: 0.7723281725813264
+Execution time: 26.799315929412842 seconds
+Number of hierarchical levels: 1
