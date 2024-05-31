@@ -1,0 +1,43 @@
+
+Level 1 partitions:
+  Subgraph 0: Nodes [2, 20, 13, 19]
+  Subgraph 1: Nodes [4, 10, 18, 24]
+  Subgraph 2: Nodes [0, 17]
+  Subgraph 3: Nodes [11, 14, 16]
+  Subgraph 4: Nodes [1, 29]
+  Subgraph 5: Nodes [3, 21, 6, 7]
+  Subgraph 6: Nodes [9, 15, 26]
+  Subgraph 7: Nodes [8, 27, 12]
+  Subgraph 8: Nodes [5, 22, 28]
+  Subgraph 9: Nodes [25, 23]
+Number of hierarchical levels: 2
+Subgraph solution: 0011
+Subgraph solution: 0011
+Subgraph solution: 01
+Subgraph solution: 001
+Subgraph solution: 01
+Subgraph solution: 0101
+Subgraph solution: 011
+Subgraph solution: 011
+Subgraph solution: 001
+Subgraph solution: 01
+High-level graph (Level 2) edges: [(0, 1, {'weight': 2}), (0, 2, {'weight': 3}), (0, 3, {'weight': -1}), (0, 4, {'weight': 0}), (0, 5, {'weight': -5}), (0, 6, {'weight': 0}), (0, 7, {'weight': 0}), (0, 8, {'weight': -2}), (0, 9, {'weight': 3}), (1, 2, {'weight': 2}), (1, 3, {'weight': 0}), (1, 4, {'weight': 0}), (1, 5, {'weight': -2}), (1, 6, {'weight': 1}), (1, 7, {'weight': 0}), (1, 8, {'weight': -1}), (1, 9, {'weight': 1}), (2, 3, {'weight': 0}), (2, 4, {'weight': 1}), (2, 5, {'weight': -1}), (2, 6, {'weight': 3}), (2, 7, {'weight': 1}), (2, 8, {'weight': -1}), (2, 9, {'weight': 0}), (3, 4, {'weight': -2}), (3, 5, {'weight': 0}), (3, 6, {'weight': 0}), (3, 7, {'weight': 1}), (3, 8, {'weight': 1}), (3, 9, {'weight': -1}), (4, 5, {'weight': -3}), (4, 6, {'weight': -1}), (4, 7, {'weight': -2}), (4, 8, {'weight': 2}), (4, 9, {'weight': -1}), (5, 6, {'weight': -1}), (5, 7, {'weight': 0}), (5, 8, {'weight': 1}), (5, 9, {'weight': -3}), (6, 7, {'weight': 2}), (6, 8, {'weight': 0}), (6, 9, {'weight': 1}), (7, 8, {'weight': -2}), (7, 9, {'weight': -1}), (8, 9, {'weight': 0})]
+
+Level 2 partitions:
+  Subgraph 0: Nodes [1, 2]
+  Subgraph 1: Nodes [4, 7, 8]
+  Subgraph 2: Nodes [0, 5, 9]
+  Subgraph 3: Nodes [3, 6]
+Number of hierarchical levels: 3
+Subgraph solution: 01
+Subgraph solution: 000
+Subgraph solution: 011
+Subgraph solution: 00
+High-level graph (Level 3) edges: [(0, 1, {'weight': 0}), (0, 2, {'weight': 0}), (0, 3, {'weight': 0}), (1, 2, {'weight': -3}), (1, 3, {'weight': 6}), (2, 3, {'weight': -2})]
+High-level solution bitstring: 0001
+Final merged solution: [0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 1 1 1 1 1 0 1 0 1 1 0 1 1 1 1]
+Cut value of the solution: 114.0
+Optimal cut value (SDP): 140.18809394592887
+Approximation ratio: 0.8131931663467103
+Execution time: 27.272624969482422 seconds
+Number of hierarchical levels: 2
